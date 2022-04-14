@@ -1,0 +1,14 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "tailwind sample",
+  "main": "index.js",
+  "scripts": {
+  "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "ceekaytech",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
